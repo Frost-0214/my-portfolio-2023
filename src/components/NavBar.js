@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import Logo from './Logo'
-import {FacebookIcon, InstagramIcon, MoonIcon, SunIcon, TiktokIcon} from './Icons'
+import {FacebookIcon, GithubIcon, InstagramIcon, MoonIcon, SunIcon, TiktokIcon} from './Icons'
 import { useRouter } from 'next/router'
 import { motion } from "framer-motion";
 import useThemeSwitcher from './hooks/useThemeSwitcher'
@@ -62,12 +62,13 @@ const NavBar = () => {
             </nav>
             <nav className="flex item-center justify-center flex-wrap">
                 <motion.a href="https://www.facebook.com/johnmartin.gasangue" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 fill-dark dark:fill-light"><FacebookIcon/></motion.a>
-                <motion.a href="https://www.instagram.com/_jmartn/" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mx-2 fill-dark dark:fill-light"><InstagramIcon/></motion.a>
-                <motion.a href="https://www.tiktok.com/@_jmartn" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 ml-2 fill-dark dark:fill-light"><TiktokIcon/></motion.a>
+                <motion.a href="https://www.instagram.com/_jmartn/" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 fill-dark dark:fill-light"><InstagramIcon/></motion.a>
+                <motion.a href="https://www.tiktok.com/@_jmartn" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 fill-dark dark:fill-light"><TiktokIcon/></motion.a>
+                <motion.a href="https://github.com/Frost-0214" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 fill-dark dark:fill-light"><GithubIcon/></motion.a>
 
                 <button 
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                className={`ml-2 w-12 flex items-center justify-center rounded-full px-1.5
+                className={`ml-1 w-12 flex items-center justify-center rounded-full px-1.5
                 ${mode === "light" ? "bg-none text-dark" : "bg-none text-light"}`}>
                     {
                         mode === "dark" ?
@@ -91,13 +92,14 @@ const NavBar = () => {
                 <CustomMobileLink href='/certificates' title="Certificates" className='' toggle={handleClick}/>
             </nav>
             <nav className="flex item-center justify-center flex-wrap mt-2">
-                <motion.a href="https://www.facebook.com/johnmartin.gasangue" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 sm:mx-1 fill-light dark:fill-dark"><FacebookIcon/></motion.a>
-                <motion.a href="https://www.instagram.com/_jmartn/" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mx-2 sm:mx-1 fill-light dark:fill-dark"><InstagramIcon/></motion.a>
-                <motion.a href="https://www.tiktok.com/@_jmartn" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 ml-2 sm:mx-1 fill-light dark:fill-dark"><TiktokIcon/></motion.a>
+            <motion.a href="https://www.facebook.com/johnmartin.gasangue" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 fill-light dark:fill-dark"><FacebookIcon/></motion.a>
+                <motion.a href="https://www.instagram.com/_jmartn/" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 fill-light dark:fill-dark"><InstagramIcon/></motion.a>
+                <motion.a href="https://www.tiktok.com/@_jmartn" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 fill-light dark:fill-dark"><TiktokIcon/></motion.a>
+                <motion.a href="https://github.com/Frost-0214" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 text-light dark:text-dark"><GithubIcon/></motion.a>
 
                 <button 
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                className={`ml-4 lg:w-11 lg:ml-3 md:ml-2 sm:ml-0 sm:mx-1 flex items-center justify-center rounded-full px-1.5
+                className={`ml-2 lg:w-11 lg:ml-1 lg:mx-1 md:ml-1 md:mx-1 sm:ml-1 sm:mx-1 flex items-center justify-center rounded-full px-1.5
                 ${mode === "light" ? "bg-none text-light" : "bg-none text-dark"}`}>
                     {
                         mode === "dark" ?
