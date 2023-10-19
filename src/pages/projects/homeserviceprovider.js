@@ -58,7 +58,7 @@ const homeserviceprovider = () => {
             </div>
           </Layout>
           <div className='col-span-12'>
-            <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FHSPA.mp4?alt=media&token=d9bb2f64-7ab1-4905-be11-01b35f543322&_gl=1*t52n19*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5Njc4MzEwMC42My4xLjE2OTY3ODMxOTEuNjAuMC4w" muted loop autoPlay priority className='w-full h-auto'/>
+            <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FHSPA.mp4?alt=media&token=d9bb2f64-7ab1-4905-be11-01b35f543322&_gl=1*t52n19*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5Njc4MzEwMC42My4xLjE2OTY3ODMxOTEuNjAuMC4w" muted loop autoPlay priority playsInline className='w-full h-auto'/>
           </div>
           <Layout className='pt-16'>
             <div className='grid grid-cols-3 mt-16'>

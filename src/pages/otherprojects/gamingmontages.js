@@ -61,7 +61,7 @@ const gamingmontages = () => {
             <div className='mt-6 mb-4'>
             <div className='flex relative items-center justify-center'>
               <video src="https://firebasestorage.googleapis.com/v0/b/myportfolio-794c9.appspot.com/o/videos%2Fling-montage.mp4?alt=media&token=701754f9-9855-4906-8382-b14eb3111035&_gl=1*1fuvxzg*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzUyMzU3OS43Ni4xLjE2OTc1MjQ3MTQuNjAuMC4w"
-              priority autoPlay muted loop className='w-[28%] h-auto absolute top-11 rounded-3xl -z-10 xl:top-8 lg:top-6 md:top-4 sm:top-5 sm:rounded-xl xs:top-3 xs:rounded-xl'/>
+              priority autoPlay muted loop playsInline className='w-[28%] h-auto absolute top-11 rounded-3xl -z-10 xl:top-8 lg:top-6 md:top-4 sm:top-5 sm:rounded-xl xs:top-3 xs:rounded-xl'/>
               <Image src={iphone} alt="JohnMartin" className='w-[60%] h-auto'
                   priority
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
@@ -78,7 +78,7 @@ const gamingmontages = () => {
             <div className='mt-6 mb-4'>
             <div className='flex relative items-center justify-center'>
               <video src="https://firebasestorage.googleapis.com/v0/b/myportfolio-794c9.appspot.com/o/videos%2FReyna.mp4?alt=media&token=6903b512-34d7-4a94-8bb2-bd71e020593a&_gl=1*ca16ul*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzUyMzU3OS43Ni4xLjE2OTc1MjUzNDguNjAuMC4w"
-              priority autoPlay muted loop className='w-[79%] h-auto absolute top-3.5 rounded -z-10 xl:top-3 lg:top-2 md:top-2.5 md:rounded-none sm:top-1.5 sm:rounded-none xs:top-1 xs:rounded-none'/>
+              priority autoPlay muted loop playsInline className='w-[79%] h-auto absolute top-3.5 rounded -z-10 xl:top-3 lg:top-2 md:top-2.5 md:rounded-none sm:top-1.5 sm:rounded-none xs:top-1 xs:rounded-none'/>
               <Image src={macbookpro} alt="JohnMartin" className='w-full h-auto'
                   priority
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
@@ -89,7 +89,7 @@ const gamingmontages = () => {
             <div className='mt-6 mb-32'>
             <div className='flex relative items-center justify-center'>
               <video src="https://firebasestorage.googleapis.com/v0/b/myportfolio-794c9.appspot.com/o/videos%2Fsage.mp4?alt=media&token=5e1dfa1e-7b11-44f3-8c47-3d27a0dc8162&_gl=1*lwmyl0*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzUyMzU3OS43Ni4xLjE2OTc1MjY5NDkuMjkuMC4w"
-              priority autoPlay muted loop className='w-full h-auto'/>
+              priority autoPlay muted loop playsInline className='w-full h-auto'/>
             </div>
             </div>
           <Layout className='my-32'>

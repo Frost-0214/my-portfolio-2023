@@ -65,7 +65,7 @@ const jpcs = () => {
             </div>
           </Layout>
             <div className='col-span-12'>
-                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FSBCS%20Week.mp4?alt=media&token=0244db79-16d0-4e47-9c61-fed9b93fbda3&_gl=1*nm6ulj*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzAxMjQ5OS42Ny4xLjE2OTcwMTI5ODkuNjAuMC4w" priority autoPlay muted loop className='w-full h-auto'/>
+                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FSBCS%20Week.mp4?alt=media&token=0244db79-16d0-4e47-9c61-fed9b93fbda3&_gl=1*nm6ulj*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzAxMjQ5OS42Ny4xLjE2OTcwMTI5ODkuNjAuMC4w" priority autoPlay muted loop playsInline className='w-full h-auto'/>
             </div>
             <Layout className='pt-16'>
             <div className='grid grid-cols-2 gap-16 mt-16'>
@@ -128,7 +128,7 @@ const jpcs = () => {
                 initial={{y:150, opacity:0}}
                 whileInView={{y:0, opacity:1, transition:{duration:1, delay:0.7}}}
                 viewport={{once: true}}>
-                  <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FJPCS%20LOGO%202.mp4?alt=media&token=48006d0c-ff25-4b06-bebb-4f2f25314ab9&_gl=1*1pdbj9p*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzQ1MTI0NC43MS4xLjE2OTc0NTEzMjQuNjAuMC4w" priority autoPlay muted loop className='w-1/2 h-auto'/>
+                  <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FJPCS%20LOGO%202.mp4?alt=media&token=48006d0c-ff25-4b06-bebb-4f2f25314ab9&_gl=1*1pdbj9p*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzQ1MTI0NC43MS4xLjE2OTc0NTEzMjQuNjAuMC4w" priority autoPlay muted loop playsInline className='w-1/2 h-auto'/>
                 </motion.div>
               </div>
             </div>

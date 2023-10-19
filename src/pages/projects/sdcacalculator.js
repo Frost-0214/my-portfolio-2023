@@ -51,7 +51,7 @@ const sdcacalculator = () => {
                 />
               </div>
               <div className='col-span-12'>
-                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2Fsdca-calculator.mp4?alt=media&token=c6ff9169-ff0c-4cc3-835f-c72b242b9a20&_gl=1*16t78lp*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzAwNjQxOC42Ni4xLjE2OTcwMDY1MTIuNjAuMC4w" muted loop autoPlay priority className='w-full h-auto'/>
+                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2Fsdca-calculator.mp4?alt=media&token=c6ff9169-ff0c-4cc3-835f-c72b242b9a20&_gl=1*16t78lp*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzAwNjQxOC42Ni4xLjE2OTcwMDY1MTIuNjAuMC4w" muted loop autoPlay priority playsInline className='w-full h-auto'/>
               </div>
             </div>
           </Layout>

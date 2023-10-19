@@ -52,7 +52,7 @@ const jcheese = () => {
             </div>
           </Layout>
             <div className='col-span-12'>
-                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2Fjcheese-montage.mp4?alt=media&token=dea42bf5-45f7-4f89-8a71-b72b4d4fb7fe&_gl=1*13fp2ib*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzQ1OTgxOS43Mi4xLjE2OTc0NTk5MTcuNjAuMC4w" priority autoPlay muted loop className='w-full h-auto'/>
+                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2Fjcheese-montage.mp4?alt=media&token=dea42bf5-45f7-4f89-8a71-b72b4d4fb7fe&_gl=1*13fp2ib*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzQ1OTgxOS43Mi4xLjE2OTc0NTk5MTcuNjAuMC4w" priority autoPlay muted loop playsInline className='w-full h-auto'/>
             </div>
             <Layout className='mt-16'>
             <div className='mt-4 mb-4'>
@@ -61,7 +61,8 @@ const jcheese = () => {
                 muted 
                 loop 
                 autoPlay 
-                priority 
+                priority
+                playsInline 
                 className='w-1/2 h-auto absolute -top-0 rounded -z-10'/>
                 <Image src={macpro} alt="JohnMartin" className='w-1/2 h-auto'
                 priority
@@ -77,7 +78,8 @@ const jcheese = () => {
                 muted 
                 loop 
                 autoPlay 
-                priority 
+                priority
+                playsInline 
                 className='w-1/2 h-auto absolute -top-0 rounded -z-10'/>
                 <Image src={macpro} alt="JohnMartin" className='w-1/2 h-auto'
                 priority
@@ -93,7 +95,8 @@ const jcheese = () => {
                 muted 
                 loop 
                 autoPlay 
-                priority 
+                priority
+                playsInline 
                 className='w-1/2 h-auto absolute -top-0 rounded -z-10'/>
                 <Image src={macpro} alt="JohnMartin" className='w-1/2 h-auto'
                 priority
