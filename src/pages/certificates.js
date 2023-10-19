@@ -71,7 +71,7 @@ const Article = ({img, title, date, link}) => {
         initial={{y:200}}
         whileInView={{y:0, transition:{duration:0.5, ease:"easeInOut"}}}
         viewport={{once: true}}
-        className='relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark first:0 border border-solid border-dark border-r-4 border-b-4 dark:bg-dark dark:border-light dark:text-light md:flex-col'>
+        className='relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark first:0 border border-solid border-dark border-r-4 border-b-4 dark:bg-dark dark:border-light dark:text-light md:flex-col sm:items-start sm:bottom-10'>
             <MovingImg title={title} img={img} link={link} />
             <span className='text-blue-600 font-semibold pl-4 md:self-center sm:self-start sm:pl-0 xs:text-sm'>{date}</span>
         </motion.li>
@@ -125,7 +125,7 @@ const certificates = () => {
                     />
                 </ul>
                 <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>All Certificates</h2>
-                <ul>
+                <ul className='mb-16'>
                     <Article
                     title="3rd SDCA International Virtual Multidisciplinary Research Conference 2023"
                     date="April 18, 2023"
@@ -139,7 +139,7 @@ const certificates = () => {
                     img={toeic2023}
                     />
                     <Article
-                    title="Cultural Center of the Philipines: Internship Program at the Management Services Division"
+                    title="Cultural Center of the Philippines: Internship Program at the Management Services Division"
                     date="December 13, 2022"
                     link="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/certificates%2FGasangue%2C%20John%20Martin%20M.%20OJT%20Certificate.pdf?alt=media&token=46ae64ed-cc97-4050-9da7-00d865b90ea5&_gl=1*dhonjx*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NjM2MDQ3NC42Mi4xLjE2OTYzNjE2NTcuNDYuMC4w"
                     img={ojt}

@@ -9,7 +9,7 @@ const Skills = () => {
     <div className='w-full h-full relative flex items-start justify-center gap-20 xl:grid xl:items-center'>
         <div className='col-span-3 relative w-auto h-auto rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light'>
             <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light md:w-full md:h-[101.5%]' />
-            <h2 className='font-bold text-4xl w-full text-center mb-5'>Front End</h2>
+            <h2 className='font-bold text-4xl w-full text-center mb-5'>Web</h2>
             <motion.div initial={{y:100, opacity:0}}
             whileInView={{y:0, opacity:1, transition:{duration:1, delay:0.4}}}
             viewport={{once: true}} className='flex items-center justify-center rounded-full mb-4 sm:grid sm:gap-5'>
@@ -64,7 +64,7 @@ const Skills = () => {
                     </div>
                 </div>
             </motion.div>
-            <h2 className='font-bold text-4xl w-full text-center mb-5 mt-10'>Back End</h2>
+            <h2 className='font-bold text-4xl w-full text-center mb-5 mt-10'>Software</h2>
             <motion.div initial={{y:100, opacity:0}}
             whileInView={{y:0, opacity:1, transition:{duration:1, delay:0.5}}}
             viewport={{once: true}} className='flex items-center justify-center rounded-full mb-4 sm:grid sm:gap-5'>
