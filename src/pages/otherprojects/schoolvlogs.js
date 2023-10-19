@@ -38,7 +38,7 @@ const schoolvlogs = () => {
                     <p className='font-medium'>2019</p>
                 </div>
             </div>
-            <div className='grid grid-cols-12 gap-24 gap-y-32 mt-2 mb-4 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0720'>
+            <div className='grid grid-cols-12 gap-24 gap-y-32 mt-2 mb-4 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
               <div className='col-span-12'>
                 <FramerImage src={headimg} alt="JohnMartin" className='w-full h-auto'
                 priority

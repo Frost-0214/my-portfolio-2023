@@ -7,7 +7,7 @@ import LiIcon from './LiIcon'
 const Details = ({position, company, companyLink, time, address, work}) => {
     const ref = useRef(null);
     return (
-        <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[80%] mx-56 flex flex-col items-start justify-between md:mx-6 md:px-6 md:w-full'>
+        <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[80%] mx-56 flex flex-col items-start justify-between lg:mx-28 md:mx-6 md:px-6 md:w-full'>
         <LiIcon reference={ref} />
         <motion.div initial={{y:50}} whileInView={{y:0}} transition={{duration:0.5, type:"spring"}}>
             <h3 className='capitalize font-bold text-2xl sm:text-xl xs:text-lg'>

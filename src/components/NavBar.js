@@ -67,8 +67,8 @@ const NavBar = () => {
 
                 <button 
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                className={`ml-4 flex items-center justify-center rounded-full px-1.5
-                ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}>
+                className={`ml-2 w-12 flex items-center justify-center rounded-full px-1.5
+                ${mode === "light" ? "bg-none text-dark" : "bg-none text-light"}`}>
                     {
                         mode === "dark" ?
                         <SunIcon className={"fill-dark"} />
@@ -97,8 +97,8 @@ const NavBar = () => {
 
                 <button 
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                className={`ml-4 sm:mx-1 flex items-center justify-center rounded-full px-1.5
-                ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}>
+                className={`ml-4 lg:w-11 lg:ml-3 md:ml-2 sm:ml-0 sm:mx-1 flex items-center justify-center rounded-full px-1.5
+                ${mode === "light" ? "bg-none text-light" : "bg-none text-dark"}`}>
                     {
                         mode === "dark" ?
                         <SunIcon className={"fill-dark"} />
