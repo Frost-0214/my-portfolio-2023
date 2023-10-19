@@ -32,7 +32,7 @@ const FeaturedProject = ({type, title, summary, img, link, playstore}) => {
             <div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
                 <span className='text-blue-600 font-medium text-xl xs:text-base'>{type}</span>
                 <Link href={link}  className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm'>{title}</h2>
+                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light lg:text-2xl sm:text-xl'>{title}</h2>
             </Link>
             <p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
             <div className='mt-2 flex items-center'>
@@ -64,7 +64,7 @@ const FeaturedProject1 = ({type, title, summary, img, link, playstore}) => {
             <div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
                 <span className='text-blue-600 font-medium text-xl xs:text-base'>{type}</span>
                 <Link href={link} className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left text-3xl font-bold dark:text-light sm:text-sm'>{title}</h2>
+                <h2 className='my-2 w-full text-left text-3xl font-bold dark:text-light lg:text-2xl sm:text-xl'>{title}</h2>
             </Link>
             <p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
             <div className='mt-2 flex items-center'>
@@ -94,7 +94,7 @@ const Project = ({type, title, img, link, linkexternal, icon}) => {
             <div className='w-full flex flex-col items-start justify-between mt-4'>
                 <span className='text-blue-600 font-medium text-xl lg:text-lg md:text-base'>{type}</span>
                 <Link href={link} className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left text-3xl font-bold lg:text-2xl'>{title}</h2>
+                <h2 className='my-2 w-full text-left text-3xl font-bold lg:text-2xl sm:text-xl'>{title}</h2>
             </Link>
             <div className='flex items-start gap-2 pointer-events-none'>
                 <Link href={linkexternal} className='w-8 fill-dark dark:fill-light'>
@@ -131,7 +131,7 @@ const Project1 = ({type, title, img, link, linkexternal}) => {
             <div className='w-full flex flex-col items-start justify-between mt-4'>
                 <span className='text-blue-600 font-medium text-xl lg:text-lg md:text-base'>{type}</span>
                 <Link href={link} className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left text-3xl font-bold lg:text-2xl'>{title}</h2>
+                <h2 className='my-2 w-full text-left text-3xl font-bold lg:text-2xl sm:text-xl'>{title}</h2>
             </Link>
             <div className='flex items-start gap-2 pointer-events-none'>
                 <Link href="/" className='w-8'>
