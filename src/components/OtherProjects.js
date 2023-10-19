@@ -27,7 +27,7 @@ const FeaturedProject = ({type, title, summary, img, link, fb}) => {
             <div className='w-1/2 flex flex-col items-start justify-between pl-16 lg:w-full lg:pl-0 lg:pt-6'>
                 <span className='text-blue-600 font-medium text-xl xs:text-base'>{type}</span>
                 <Link href={link} className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm'>{title}</h2>
+                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light lg:text-2xl sm:text-xl'>{title}</h2>
             </Link>
             <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
             <div className='mt-2 flex items-center'>
@@ -60,7 +60,7 @@ const FeaturedProject1 = ({type, title, summary, img, link, pr}) => {
             <div className='w-1/2 flex flex-col items-start justify-between pl-28 lg:w-full lg:pl-0 lg:pt-6'>
                 <span className='text-blue-600 font-medium text-xl xs:text-base'>{type}</span>
                 <Link href={link} className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm'>{title}</h2>
+                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light lg:text-2xl sm:text-xl'>{title}</h2>
             </Link>
             <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
             <div className='mt-2 flex items-center'>
@@ -80,11 +80,20 @@ const FeaturedProject2 = ({type, title, summary, img, link, pr}) => {
     return(
         <article className='w-full flex items-center justify-between relative rounded-br-2xl rounded-3xl border border-solid border-dark bg-light shadow-2xl p-4 dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4'>
             <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl dark:bg-light xs:-right-2 sm:h-[102%] xs:w-full xs:rounded=[1.5rem]' />
-            
+            <Link href={link}
+            className=' w-1/2 cursor-pointer overflow-hidden rounded-lg hidden lg:w-full lg:grid'>
+                <div className='flex relative items-center justify-center'>
+                <Image src={img} alt={title} className="w-full h-auto z-10"
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                />
+                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FThe%20Setup.mp4?alt=media&token=23067d29-78a2-45ed-9335-27a891820ed8&_gl=1*3wagym*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NjMzODYyNS42MS4xLjE2OTYzNDU3MTQuMjguMC4w" muted loop autoPlay priority playsInline className='w-[74.5%] h-auto absolute top-0.5 rounded-t-lg'/>
+                </div>
+            </Link>
             <div className='w-1/2 flex flex-col items-start justify-between pl-40 lg:w-full lg:pl-0 lg:pt-6'>
                 <span className='text-blue-600 font-medium text-xl xs:text-base'>{type}</span>
                 <Link href={link} className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm'>{title}</h2>
+                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light lg:text-2xl sm:text-xl'>{title}</h2>
             </Link>
             <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
             <div className='mt-2 flex items-center'>
@@ -97,7 +106,7 @@ const FeaturedProject2 = ({type, title, summary, img, link, pr}) => {
             </div>
             </div>
             <Link href={link}
-            className=' w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'>
+            className=' w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full lg:hidden'>
                 <div className='flex relative items-center justify-center'>
                 <Image src={img} alt={title} className="w-full h-auto z-10"
                 priority
@@ -127,7 +136,7 @@ const FeaturedProject3 = ({type, title, summary, img, link, pr}) => {
             <div className='w-1/2 flex flex-col items-start justify-between pl-28 lg:w-full lg:pl-0 lg:pt-6'>
                 <span className='text-blue-600 font-medium text-xl xs:text-base'>{type}</span>
                 <Link href={link} className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light sm:text-sm'>{title}</h2>
+                <h2 className='my-2 w-full text-left text-4xl font-bold dark:text-light lg:text-2xl sm:text-xl'>{title}</h2>
             </Link>
             <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
             <div className='mt-2 flex items-center'>
@@ -158,7 +167,7 @@ const Project = ({type, title, img, link, fb}) => {
             <div className='w-full flex flex-col items-start justify-between mt-4'>
                 <span className='text-blue-600 font-medium text-xl lg:text-lg md:text-base'>{type}</span>
                 <Link href={link} className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left text-3xl font-bold lg:text-2xl'>{title}</h2>
+                <h2 className='my-2 w-full text-left text-3xl font-bold lg:text-2xl sm:text-xl'>{title}</h2>
             </Link>
             <div className='flex items-start gap-3 pointer-events-none'>
                 <Link href="/" className='w-10'>
@@ -196,7 +205,7 @@ const Project1 = ({type, title, img, link, fb}) => {
             <div className='w-full flex flex-col items-start justify-between mt-4'>
                 <span className='text-blue-600 font-medium text-xl lg:text-lg md:text-base'>{type}</span>
                 <Link href={link} className='hover:underline underline-offset-2'>
-                <h2 className='my-2 w-full text-left text-3xl font-bold lg:text-2xl'>{title}</h2>
+                <h2 className='my-2 w-full text-left text-3xl font-bold lg:text-2xl sm:text-xl'>{title}</h2>
             </Link>
             <div className='flex items-start gap-3 pointer-events-none'>
                 <Link href="/" className='w-10'>
