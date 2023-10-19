@@ -21,7 +21,7 @@ const FeaturedProject = ({type, title, summary, img, link, fb}) => {
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 />
-                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FSBCS%20Week.mp4?alt=media&token=0244db79-16d0-4e47-9c61-fed9b93fbda3&_gl=1*17t9f2x*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NjMzODYyNS42MS4xLjE2OTYzMzg3MDUuNjAuMC4w" muted loop autoPlay priority playsInline className='w-[99.5%] h-auto absolute top-0.5'/>
+                <video src="https://firebasestorage.googleapis.com/v0/b/projectspage-9b2a1.appspot.com/o/videos%2FSBCS%20Week.mp4?alt=media&token=94a32b86-dbc8-4d19-8a47-2a7d18503623&_gl=1*11nksje*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzcyNDMzMS44MC4xLjE2OTc3MjQ3NTQuNjAuMC4w" muted loop autoPlay priority playsInline className='w-[99.5%] h-auto absolute top-0.5'/>
                 </div>
             </Link>
             <div className='w-1/2 flex flex-col items-start justify-between pl-16 lg:w-full lg:pl-0 lg:pt-6'>
@@ -54,7 +54,7 @@ const FeaturedProject1 = ({type, title, summary, img, link, pr}) => {
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 />
-                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FReyna.mp4?alt=media&token=8767dfbe-03d1-4569-80e8-40ec04567190&_gl=1*1ux1dzc*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NjMzODYyNS42MS4xLjE2OTYzNDM0MjYuMzAuMC4w" muted loop autoPlay priority playsInline className='w-[74.5%] h-auto absolute top-0.5 rounded-t-lg'/>
+                <video src="https://firebasestorage.googleapis.com/v0/b/projectspage-9b2a1.appspot.com/o/videos%2FReyna.mp4?alt=media&token=3f0d90e5-e7f8-4ecf-845f-314aff442fe8&_gl=1*1s9xx08*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzcyNDMzMS44MC4xLjE2OTc3MjQ3ODIuMzIuMC4w" muted loop autoPlay priority playsInline className='w-[74.5%] h-auto absolute top-0.5 rounded-t-lg'/>
                 </div>
             </Link>
             <div className='w-1/2 flex flex-col items-start justify-between pl-28 lg:w-full lg:pl-0 lg:pt-6'>
@@ -87,7 +87,7 @@ const FeaturedProject2 = ({type, title, summary, img, link, pr}) => {
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 />
-                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FThe%20Setup.mp4?alt=media&token=23067d29-78a2-45ed-9335-27a891820ed8&_gl=1*3wagym*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NjMzODYyNS42MS4xLjE2OTYzNDU3MTQuMjguMC4w" muted loop autoPlay priority playsInline className='w-[74.5%] h-auto absolute top-0.5 rounded-t-lg'/>
+                <video src="https://firebasestorage.googleapis.com/v0/b/projectspage-9b2a1.appspot.com/o/videos%2FThe%20Setup.mp4?alt=media&token=a3b48b7a-1da9-48c6-80d7-7067035d4f74&_gl=1*1ku9qt8*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzcyNDMzMS44MC4xLjE2OTc3MjQ3OTYuMTguMC4w" muted loop autoPlay priority playsInline className='w-[74.5%] h-auto absolute top-0.5 rounded-t-lg'/>
                 </div>
             </Link>
             <div className='w-1/2 flex flex-col items-start justify-between pl-40 lg:w-full lg:pl-0 lg:pt-6'>
@@ -112,7 +112,7 @@ const FeaturedProject2 = ({type, title, summary, img, link, pr}) => {
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 />
-                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FThe%20Setup.mp4?alt=media&token=23067d29-78a2-45ed-9335-27a891820ed8&_gl=1*3wagym*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NjMzODYyNS42MS4xLjE2OTYzNDU3MTQuMjguMC4w" muted loop autoPlay priority playsInline className='w-[74.5%] h-auto absolute top-0.5 rounded-t-lg'/>
+                <video src="https://firebasestorage.googleapis.com/v0/b/projectspage-9b2a1.appspot.com/o/videos%2FThe%20Setup.mp4?alt=media&token=a3b48b7a-1da9-48c6-80d7-7067035d4f74&_gl=1*1ku9qt8*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzcyNDMzMS44MC4xLjE2OTc3MjQ3OTYuMTguMC4w" muted loop autoPlay priority playsInline className='w-[74.5%] h-auto absolute top-0.5 rounded-t-lg'/>
                 </div>
             </Link>
         </article>
@@ -130,7 +130,7 @@ const FeaturedProject3 = ({type, title, summary, img, link, pr}) => {
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 />
-                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FInfromercial.mp4?alt=media&token=99a232c5-8f3e-4ab6-a91e-3041bc69543d&_gl=1*1b62oko*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NjMzODYyNS42MS4xLjE2OTYzNDU3MjcuMTUuMC4w" muted loop autoPlay priority playsInline className='w-[74.5%] h-auto absolute top-0.5 rounded-t-lg'/>
+                <video src="https://firebasestorage.googleapis.com/v0/b/projectspage-9b2a1.appspot.com/o/videos%2FInfromercial.mp4?alt=media&token=81ca4b82-edac-4758-b5aa-354ea08a7579&_gl=1*12zw0wh*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzcyNDMzMS44MC4xLjE2OTc3MjQ4MTIuMi4wLjA." muted loop autoPlay priority playsInline className='w-[74.5%] h-auto absolute top-0.5 rounded-t-lg'/>
                 </div>
             </Link>
             <div className='w-1/2 flex flex-col items-start justify-between pl-28 lg:w-full lg:pl-0 lg:pt-6'>
@@ -161,7 +161,7 @@ const Project = ({type, title, img, link, fb}) => {
                <div className='flex relative items-center justify-center'>
                <Image src={img} alt={title} className="w-full h-auto z-10"
                 />
-                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FJcheese.mp4?alt=media&token=715d68cc-2f88-4154-8a0c-62e140b15e23&_gl=1*q8r445*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NjMzODYyNS42MS4xLjE2OTYzNDY4NDkuNjAuMC4w" muted loop autoPlay priority playsInline className='w-[99.5%] h-auto absolute top-0.5'/>
+                <video src="https://firebasestorage.googleapis.com/v0/b/projectspage-9b2a1.appspot.com/o/videos%2FJcheese.mp4?alt=media&token=ca0745f6-3f1d-42c9-ac11-5ff451391220&_gl=1*fcgq0p*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzcyNDMzMS44MC4xLjE2OTc3MjQ4NjIuNjAuMC4w" muted loop autoPlay priority playsInline className='w-[99.5%] h-auto absolute top-0.5'/>
                </div>
             </Link>
             <div className='w-full flex flex-col items-start justify-between mt-4'>
@@ -199,7 +199,7 @@ const Project1 = ({type, title, img, link, fb}) => {
                 <div className='flex relative items-center justify-center'>
                 <Image src={img} alt={title} className="w-full h-auto z-10"
                 />
-                <video src="https://firebasestorage.googleapis.com/v0/b/portfolio-99e6e.appspot.com/o/vids%2FiFix.mp4?alt=media&token=b3aa3a52-ada9-4274-9260-1273c1d7b14c&_gl=1*1llxww6*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NjMzODYyNS42MS4xLjE2OTYzNDY5NDAuNjAuMC4w" muted loop autoPlay priority playsInline className='w-[99.5%] h-auto absolute top-0.5'/>
+                <video src="https://firebasestorage.googleapis.com/v0/b/projectspage-9b2a1.appspot.com/o/videos%2FiFix.mp4?alt=media&token=75cb627f-291a-4975-ae70-c8e68d00fdcb&_gl=1*1b53xy1*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5NzcyNDMzMS44MC4xLjE2OTc3MjQ4NzMuNDkuMC4w" muted loop autoPlay priority playsInline className='w-[99.5%] h-auto absolute top-0.5'/>
                 </div>
             </Link>
             <div className='w-full flex flex-col items-start justify-between mt-4'>

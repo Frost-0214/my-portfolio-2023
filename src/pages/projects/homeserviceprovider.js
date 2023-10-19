@@ -5,7 +5,7 @@ import Image from 'next/image'
 import React from 'react'
 import headimg from "../../../public/images/projects/HSPA/hspa-1.png"
 import hspa2 from "../../../public/images/projects/HSPA/hspa-2.png"
-import hspaend from "../../../public/images/projects/HSPA/hspa-end.png"
+import hspaend from "../../../public/images/projects/HSPA/ps-0.png"
 import psimg from "../../../public/images/projects/HSPA/ps-button.png"
 import ip14 from "../../../public/images/devices/ip14.png"
 import home from "../../../public/images/projects/HSPA/home.png"
