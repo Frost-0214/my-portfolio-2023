@@ -181,7 +181,7 @@ const projects = () => {
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Project
-                        title="Modern Portfolio Website"
+                        title="Modern Portfolio"
                         img={project2}
                         link="/projects/modernportfoliowebsite"
                         linkexternal="/"
@@ -190,7 +190,7 @@ const projects = () => {
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Project1
-                        title="First Portfolio Website"
+                        title="First Portfolio"
                         img={project3}
                         link="/projects/firstportfoliowebsite"
                         linkexternal="/"
