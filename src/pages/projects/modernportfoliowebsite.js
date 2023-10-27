@@ -7,6 +7,10 @@ import headimg from "../../../public/images/projects/modern-portfolio.png"
 import ip14 from "../../../public/images/devices/ip14.png"
 import homelight from "../../../public/images/projects/MPW/home-light.png"
 import homedark from "../../../public/images/projects/MPW/home-dark.png"
+import maclight from "../../../public/images/projects/MPW/mac-light.png"
+import macdark from "../../../public/images/projects/MPW/mac-dark.png"
+import ipadlight from "../../../public/images/projects/MPW/ipad-light.png"
+import ipaddark from "../../../public/images/projects/MPW/ipad-dark.png"
 import macpro from "../../../public/images/devices/macpro.png"
 import ipadpro from "../../../public/images/devices/ipadpro.png"
 import firstportfolio from "../../../public/images/projects/first-portfolio-cropped.png"
@@ -54,54 +58,52 @@ const modernportfoliowebsite = () => {
               </div>
             </div>
           </Layout>
-          <div className='col-span-12 hidden dark:flex'>
-            <Image src={homelight} alt="JohnMartin" className='w-full h-auto'
-                  priority
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
-                  />
-          </div>
-          <div className='col-span-12 flex dark:hidden'>
-            <Image src={homedark} alt="JohnMartin" className='w-full h-auto'
-                  priority
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
-                  />
+          <div className='col-span-12'>
+            <video src="https://firebasestorage.googleapis.com/v0/b/myportfolio-794c9.appspot.com/o/videos%2Fmodernportfolio.mp4?alt=media&token=a308c32b-d68b-4f42-9927-ca141614036f&_gl=1*17xu1qz*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5ODM5MjY2Ny44NC4xLjE2OTgzOTI4NTAuNjAuMC4w" className='w-full h-auto'
+              autoPlay
+              muted
+              playsInline
+              loop
+              priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+              />
           </div>
           <Layout className='mt-16'>
-            <div className='flex relative gap-24 gap-y-32 mt-4 mb-4 items-center justify-center'>
-              <div className='items-center justify-center'>
-                <video src="" 
-                muted 
-                loop 
-                autoPlay 
-                priority 
-                className='w-[25.8%] h-auto absolute top-11 ml-44 rounded-3xl -z-10'/>
-                <Image src={macpro} alt="JohnMartin" className='w-full h-auto'
-                priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 45vw, 45vw"
-                />
-              </div>
-            </div>
+            <div className='grid grid-cols-2 gap-16'>
+                    <FramerImage src={maclight} alt="JohnMartin" className='w-full h-auto overflow-hidden'
+                    priority
+                    initial={{y:150, opacity:0}}
+                    whileInView={{y:0, opacity:1, transition:{duration:0.5}}}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+                    />
+                    <FramerImage src={macdark} alt="JohnMartin" className='w-full h-auto'
+                    priority
+                    initial={{y:150, opacity:0}}
+                    whileInView={{y:0, opacity:1, transition:{duration:0.5}}}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+                    />
+                </div>
+          </Layout>
+          <Layout className='mt-16'>
+            <div className='grid grid-cols-2 gap-16'>
+                    <FramerImage src={ipadlight} alt="JohnMartin" className='w-full h-auto overflow-hidden'
+                    priority
+                    initial={{y:150, opacity:0}}
+                    whileInView={{y:0, opacity:1, transition:{duration:0.5}}}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+                    />
+                    <FramerImage src={ipaddark} alt="JohnMartin" className='w-full h-auto'
+                    priority
+                    initial={{y:150, opacity:0}}
+                    whileInView={{y:0, opacity:1, transition:{duration:0.5}}}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+                    />
+                </div>
           </Layout>
           <Layout className='mt-16'>
             <div className='flex relative gap-24 gap-y-32 mt-4 mb-4 items-center justify-center'>
               <div className='items-center justify-center'>
-                <video src="" 
-                muted 
-                loop 
-                autoPlay 
-                priority 
-                className='w-[25.8%] h-auto absolute top-11 ml-44 rounded-3xl -z-10'/>
-                <Image src={ipadpro} alt="JohnMartin" className='w-full h-auto'
-                priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 45vw, 45vw"
-                />
-              </div>
-            </div>
-          </Layout>
-          <Layout className='mt-16'>
-            <div className='flex relative gap-24 gap-y-32 mt-4 mb-4 items-center justify-center'>
-              <div className='items-center justify-center'>
-                <video src="" 
+                <video src="https://firebasestorage.googleapis.com/v0/b/myportfolio-794c9.appspot.com/o/videos%2Fiphone-website.mp4?alt=media&token=63e17163-3646-46e2-a5a2-615394049dbc&_gl=1*ts8ls1*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5ODM5MjY2Ny44NC4xLjE2OTgzOTMyMTcuNDUuMC4w" 
                 muted 
                 loop 
                 autoPlay 
