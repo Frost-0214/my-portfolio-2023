@@ -108,6 +108,7 @@ const modernportfoliowebsite = () => {
                 loop 
                 autoPlay 
                 priority 
+                playsInline
                 className='w-[47%] h-auto absolute top-10 ml-1 rounded-3xl -z-10 xl:top-8 lg:top-7 lg:ml-0 md:top-8 sm:top-7 xs:top-5'/>
                 <Image src={ip14} alt="JohnMartin" className='w-full h-auto'
                 priority

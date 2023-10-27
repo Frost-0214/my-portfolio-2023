@@ -54,7 +54,7 @@ const firstportfoliowebsite = () => {
             </div>
           </Layout>
           <div className='col-span-12'>
-            <video src="https://firebasestorage.googleapis.com/v0/b/myportfolio-794c9.appspot.com/o/videos%2Ffirstportfolio.mp4?alt=media&token=fead658a-b0af-4b18-8409-b9c0776a05da&_gl=1*op6rce*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5ODM5MjY2Ny44NC4xLjE2OTgzOTUxNjAuMTQuMC4w" muted loop autoPlay priority className='w-full h-auto'/>
+            <video src="https://firebasestorage.googleapis.com/v0/b/myportfolio-794c9.appspot.com/o/videos%2Ffirstportfolio.mp4?alt=media&token=fead658a-b0af-4b18-8409-b9c0776a05da&_gl=1*op6rce*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5ODM5MjY2Ny44NC4xLjE2OTgzOTUxNjAuMTQuMC4w" muted loop autoPlay playsInline priority className='w-full h-auto'/>
           </div>
           <Layout className='mt-16'>
             <div className='grid grid-cols-2 gap-16'>
