@@ -20,28 +20,28 @@ const firstportfoliowebsite = () => {
   return (
     <>
         <Head>
-            <title>JM | First Portfolio Website</title>
+            <title>JM | First Portfolio</title>
             <meta name="description" content="any description" />
         </Head>
         <TransitionEffect />
         <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
           <Layout className='pt-16'>
-            <AnimatedText text="First Portfolio Website" className='mb-16'/>
-            <div className='grid w-full grid-cols-9 items-center'>
-                <div className='col-span-3 flex flex-col items-center justify-center'>
-                    <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Type</h2>
-                    <p className='font-medium'>Portfolio Website</p>
+          <AnimatedText text="First Portfolio" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
+            <div className='grid w-full grid-cols-9 items-center sm:gap-8'>
+                <div className='col-span-3 flex flex-col items-center justify-center xl:col-span-3 md:order-2 md:col-span-9 md:mb-4'>
+                    <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 lg:text-base md:mb-1'>Type</h2>
+                    <p className='font-medium text-center'>Portfolio Website</p>
                 </div>
-                <div className='col-span-3 flex flex-col items-center justify-center'>
-                    <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Programming Language</h2>
-                    <p className='font-medium'>HTML, CSS, JavaScript</p>
+                <div className='col-span-3 flex flex-col items-center justify-center xl:col-span-3 md:order-2 md:col-span-9 md:mb-4'>
+                    <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 lg:text-base md:mb-1'>Programming Language</h2>
+                    <p className='font-medium text-center'>HTML, CSS, JavaScript</p>
                 </div>
-                <div className='col-span-3 flex flex-col items-center justify-center'>
-                    <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Year</h2>
-                    <p className='font-medium'>2023</p>
+                <div className='col-span-3 flex flex-col items-center justify-center xl:col-span-3 md:order-2 md:col-span-9 md:mb-4'>
+                    <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 lg:text-base md:mb-1'>Year</h2>
+                    <p className='font-medium text-center'>2023</p>
                 </div>
             </div>
-            <div className='grid grid-cols-12 gap-24 gap-y-32 mt-4 mb-4'>
+            <div className='grid grid-cols-12 gap-24 gap-y-32 mt-4 mb-4 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
               <div className='col-span-12'>
                 <FramerImage src={headimg} alt="JohnMartin" className='w-full h-auto'
                 priority

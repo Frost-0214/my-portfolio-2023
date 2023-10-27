@@ -25,13 +25,13 @@ const modernportfoliowebsite = () => {
   return (
         <>
         <Head>
-            <title>JM | Modern Portfolio Website</title>
+            <title>JM | Modern Portfolio</title>
             <meta name="description" content="any description" />
         </Head>
         <TransitionEffect />
         <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
           <Layout className='pt-16'>
-            <AnimatedText text="Modern Portfolio Website" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
+            <AnimatedText text="Modern Portfolio" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
             <div className='grid w-full grid-cols-9 items-center sm:gap-8'>
                 <div className='col-span-3 flex flex-col items-center justify-center xl:col-span-3 md:order-2 md:col-span-9 md:mb-4'>
                     <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 lg:text-base md:mb-1'>Type</h2>
@@ -102,13 +102,13 @@ const modernportfoliowebsite = () => {
           </Layout>
           <Layout className='mt-16'>
             <div className='flex relative gap-24 gap-y-32 mt-4 mb-4 items-center justify-center'>
-              <div className='items-center justify-center'>
+              <div className='flex relative items-center justify-center'>
                 <video src="https://firebasestorage.googleapis.com/v0/b/myportfolio-794c9.appspot.com/o/videos%2Fiphone-website.mp4?alt=media&token=63e17163-3646-46e2-a5a2-615394049dbc&_gl=1*ts8ls1*_ga*MTgyMTI4ODg0MC4xNjczOTg0Njc0*_ga_CW55HF8NVT*MTY5ODM5MjY2Ny44NC4xLjE2OTgzOTMyMTcuNDUuMC4w" 
                 muted 
                 loop 
                 autoPlay 
                 priority 
-                className='w-[25.8%] h-auto absolute top-11 ml-44 rounded-3xl -z-10'/>
+                className='w-[47%] h-auto absolute top-10 ml-1 rounded-3xl -z-10 xl:top-8 lg:top-7 lg:ml-0 md:top-8 sm:top-7 xs:top-5'/>
                 <Image src={ip14} alt="JohnMartin" className='w-full h-auto'
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 45vw, 45vw"
