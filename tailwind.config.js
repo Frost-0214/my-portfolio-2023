@@ -20,9 +20,16 @@ module.exports = {
         primary: "#B63E96", // 240,86,199
         primaryDark: "#58E6D9", // 80,230,217
       },
+      keyframes: {
+        minimalBounce: {
+          '0%, 100%': { transform: 'translateY(-10px)' },
+          '50%': { transform: 'translateY(-4px)' },
+        },
+      },
       animation: {
+        'minimal-bounce': 'minimalBounce 0.6s ease-in-out infinite',
         'spin-slow': 'spin 12s linear infinite',
-      }
+      },
     },
     screens: {
       "2xl": { max: "1535px" },

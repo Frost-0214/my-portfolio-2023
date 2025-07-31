@@ -45,6 +45,15 @@ const Experience = () => {
             <motion.div style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-blue-600 md:w-[2px] md:left-[30px] xs:left-[20px]'/>
             <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                 <Details 
+                position="Programmer"
+                company="Maritime Medical & Laboratory Clinic Inc."
+                companyLink="https://mmlci.com.ph"
+                time="Novemebr 2023 - November 2024"
+                address="Ermita, Metro Manila, Philippines"
+                work="Provided tech assistance at the Cinemalaya event. Troubleshoots hardware and software problems, and installed Operating Systems, softwares, and hardwares needed for the company's departments."
+                />
+
+                <Details 
                 position="IT Support (Intern)"
                 company="Cultural Center of the Philippines"
                 companyLink="https://culturalcenter.gov.ph"

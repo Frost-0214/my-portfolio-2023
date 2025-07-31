@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import Logo from './Logo'
-import {FacebookIcon, GithubIcon, InstagramIcon, MoonIcon, SunIcon, TiktokIcon} from './Icons'
+import {FacebookIcon, GithubIcon, InstagramIcon, LinkedInIcon, LinkedInIcon2, MoonIcon, SunIcon, TiktokIcon} from './Icons'
 import { useRouter } from 'next/router'
 import { motion } from "framer-motion";
 import useThemeSwitcher from './hooks/useThemeSwitcher'
@@ -64,7 +64,8 @@ const NavBar = () => {
                 <motion.a href="https://www.facebook.com/johnmartin.gasangue" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 fill-dark dark:fill-light"><FacebookIcon/></motion.a>
                 <motion.a href="https://www.instagram.com/_jmartn/" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 fill-dark dark:fill-light"><InstagramIcon/></motion.a>
                 <motion.a href="https://www.tiktok.com/@_jmartn" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 fill-dark dark:fill-light"><TiktokIcon/></motion.a>
-                <motion.a href="https://github.com/Frost-0214" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 fill-dark dark:fill-light"><GithubIcon/></motion.a>
+                <motion.a href="https://github.com/Frost-0214" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-3 fill-dark dark:fill-light"><GithubIcon/></motion.a>
+                <motion.a href="https://www.linkedin.com/in/jmgasangue" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 text-light dark:text-dark"><LinkedInIcon/></motion.a>
 
                 <button 
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -95,7 +96,8 @@ const NavBar = () => {
             <motion.a href="https://www.facebook.com/johnmartin.gasangue" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 fill-light dark:fill-dark"><FacebookIcon/></motion.a>
                 <motion.a href="https://www.instagram.com/_jmartn/" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 fill-light dark:fill-dark"><InstagramIcon/></motion.a>
                 <motion.a href="https://www.tiktok.com/@_jmartn" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-2 fill-light dark:fill-dark"><TiktokIcon/></motion.a>
-                <motion.a href="https://github.com/Frost-0214" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 text-light dark:text-dark"><GithubIcon/></motion.a>
+                <motion.a href="https://github.com/Frost-0214" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 mr-3 text-light dark:text-dark"><GithubIcon/></motion.a>
+                <motion.a href="https://www.linkedin.com/in/jmgasangue" target={"_blank"} whileHover={{y:-6}} whileTap={{scale:0.9}} className="w-9 fill-dark dark:fill-dark"><LinkedInIcon2/></motion.a>
 
                 <button 
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
