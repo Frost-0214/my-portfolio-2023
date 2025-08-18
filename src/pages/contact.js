@@ -54,8 +54,8 @@ const contact = () => {
             <main className="flex w-full min-h-screen items-center justify-center dark:text-light">
                 <Layout className="pt-8 md:pt-16">
                     <AnimatedText text="Let's Connect" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8' />
-                    <div className='grid w-full grid-cols-12 gap-24 sm:gap-8'>
-                        <div className="col-span-5 lg:col-span-10 md:col-span-8 sm:col-span-12 xs:col-span-11">
+                    <div className="flex items-stretch flex-row md:flex-col md:items-center md:justify-center justify-between w-full gap-6">
+                        <div className='w-1/2 md:w-full flex justify-center'>
                             <div className="flex justify-center items-center border border-light bg-dark rounded-xl p-10">
                                 <form
                                     ref={formRef}
@@ -122,12 +122,11 @@ const contact = () => {
                                 </form>
                             </div>
                         </div>
-                        <div className="col-span-7 min-h-96 lg:col-span-10 md:col-span-8 sm:col-span-12 xs:col-span-11">
+                        <div className='w-1/2 md:w-full flex justify-center md:mt-6 md:min-h-96'>
                             <div className="bg-[#cd7c2e] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
                                 <ContactExperience />
                             </div>
                         </div>
-
                     </div>
                 </Layout>
             </main>
