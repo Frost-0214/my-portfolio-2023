@@ -48,7 +48,7 @@ const modernportfoliowebsite = () => {
             </div>
             <div className='grid grid-cols-12 gap-24 gap-y-32 mt-4 mb-4 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
               <div className='col-span-12'>
-                <FramerImage src={headimg} alt="JohnMartin" className='w-full h-auto'
+                <FramerImage src="/images/projects/modern-portfolio.png" alt="Modern-Portfolio" width={600} height={600} className='w-full h-auto'
                 priority
                 initial={{y:150, opacity:0}}
                 whileInView={{y:0, opacity:1, transition:{duration:1, delay:0.7}}}
@@ -70,13 +70,13 @@ const modernportfoliowebsite = () => {
           </div>
           <Layout className='mt-16'>
             <div className='grid grid-cols-2 gap-16'>
-                    <FramerImage src={maclight} alt="JohnMartin" className='w-full h-auto overflow-hidden'
+                    <FramerImage src="/images/projects//MPW/mac-light.png" alt="Mac-Light" width={600} height={600} className='w-full h-auto overflow-hidden'
                     priority
                     initial={{y:150, opacity:0}}
                     whileInView={{y:0, opacity:1, transition:{duration:0.5}}}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
                     />
-                    <FramerImage src={macdark} alt="JohnMartin" className='w-full h-auto'
+                    <FramerImage src="/images/projects//MPW/mac-light.png" alt="Mac-Dark" width={600} height={600} className='w-full h-auto'
                     priority
                     initial={{y:150, opacity:0}}
                     whileInView={{y:0, opacity:1, transition:{duration:0.5}}}
@@ -86,13 +86,13 @@ const modernportfoliowebsite = () => {
           </Layout>
           <Layout className='mt-16'>
             <div className='grid grid-cols-2 gap-16'>
-                    <FramerImage src={ipadlight} alt="JohnMartin" className='w-full h-auto overflow-hidden'
+                    <FramerImage src="/images/projects/MPW/ipad-light.png" alt="iPad-Light" width={600} height={600} className='w-full h-auto overflow-hidden'
                     priority
                     initial={{y:150, opacity:0}}
                     whileInView={{y:0, opacity:1, transition:{duration:0.5}}}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
                     />
-                    <FramerImage src={ipaddark} alt="JohnMartin" className='w-full h-auto'
+                    <FramerImage src="/images/projects/MPW/ipad-dark.png" alt="iPad-Dark" width={600} height={600} className='w-full h-auto'
                     priority
                     initial={{y:150, opacity:0}}
                     whileInView={{y:0, opacity:1, transition:{duration:0.5}}}
@@ -110,7 +110,7 @@ const modernportfoliowebsite = () => {
                 priority 
                 playsInline
                 className='w-[47%] h-auto absolute top-10 ml-1 rounded-3xl -z-10 xl:top-8 lg:top-7 lg:ml-0 md:top-8 sm:top-7 xs:top-5'/>
-                <Image src={ip14} alt="JohnMartin" className='w-full h-auto'
+                <Image src="/images/devices/ip14.png" alt="iPhone14" width={600} height={600} className='w-full h-auto'
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 45vw, 45vw"
                 />
@@ -128,7 +128,7 @@ const modernportfoliowebsite = () => {
             className='mb-4 text-2xl font-bold w-full text-center text-dark dark:text-light'>First Portfolio Website</motion.h2>
             <div className='flex items-center justify-center w-full'>
               <Link href="/projects/firstportfoliowebsite">
-                <FramerImage src={firstportfolio} alt="JohnMartin" className='w-full h-auto flex items-center'
+                <FramerImage src="/images/projects/first-portfolio-cropped.png" alt="First-Portfolio-Website" width={600} height={600} className='w-full h-auto flex items-center'
                 priority
                 initial={{y:150, opacity:0}}
                 whileInView={{y:0, opacity:1, transition:{duration:1, delay:0.8}}}

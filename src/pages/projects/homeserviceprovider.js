@@ -47,7 +47,7 @@ const homeserviceprovider = () => {
             </div>
             <div className='grid grid-cols-12 gap-24 gap-y-32 mt-4 mb-4 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
               <div className='col-span-12'>
-                <FramerImage src={headimg} alt="JohnMartin" className='w-full h-auto'
+                <FramerImage src="/images/projects/HSPA/hspa-1.png" alt="HSPA" width={600} height={600} className='w-full h-auto'
                 priority
                 initial={{y:150, opacity:0}}
                 whileInView={{y:0, opacity:1, transition:{duration:1, delay:0.7}}}
@@ -62,19 +62,19 @@ const homeserviceprovider = () => {
           </div>
           <Layout className='pt-16'>
             <div className='grid grid-cols-3 mt-16'>
-                <FramerImage src={home} alt="JohnMartin" className='w-full h-auto'
+                <FramerImage src="/images/projects/HSPA/home.png" alt="HSPA-Home" width={600} height={600} className='w-full h-auto'
                 priority
                 initial={{y:150, opacity:1}}
                 whileInView={{y:0, opacity:1, transition:{duration:0.5}}}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
                 />
-                <FramerImage src={search} alt="JohnMartin" className='w-full h-auto'
+                <FramerImage src="/images/projects/HSPA/search.png" alt="HSPA-Search" width={600} height={600} className='w-full h-auto'
                 priority
                 initial={{y:150, opacity:1}}
                 whileInView={{y:0, opacity:1, transition:{duration:0.5}}}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
                 />
-                <FramerImage src={profile} alt="JohnMartin" className='w-full h-auto'
+                <FramerImage src="/images/projects/HSPA/profile.png" alt="HSPA-Profile" width={600} height={600} className='w-full h-auto'
                 priority
                 initial={{y:150, opacity:1}}
                 whileInView={{y:0, opacity:1, transition:{duration:0.5}}}
@@ -83,7 +83,7 @@ const homeserviceprovider = () => {
             </div>
           </Layout>
           <div className='col-span-12 mt-16'>
-                <Image src={hspa2} alt="JohnMartin" className='w-full h-auto'
+                <Image src="/images/projects/HSPA/hspa-2.png" alt="HSPA" width={600} height={600} className='w-full h-auto'
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
                 />
@@ -97,7 +97,7 @@ const homeserviceprovider = () => {
                 autoPlay 
                 priority 
                 className='w-[47%] h-auto absolute top-10 ml-1 rounded-3xl -z-10 xl:top-8 lg:top-7 lg:ml-0 md:top-8 sm:top-7 xs:top-5'/>
-                <Image src={ip14} alt="JohnMartin" className='w-full h-auto'
+                <Image src="/images/devices/ip14.png" alt="iPhone14" width={600} height={600} className='w-full h-auto'
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 45vw, 45vw"
                 />
@@ -105,12 +105,12 @@ const homeserviceprovider = () => {
             </div>
           </Layout>
           <div className='col-span-12 mt-16'>
-            <Image src={hspaend} alt="JohnMartin" className='w-full h-auto'
+            <Image src="/images/projects/HSPA/ps-0.png" alt="Playstore" width={600} height={600} className='w-full h-auto'
             priority
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
             />
               <Link href="https://play.google.com/store/apps/details?id=com.hspa.capstone&pcampaignid=web_share" target='_blank'>
-                <Image src={psimg} alt="JohnMartin" className='w-[42%] h-auto absolute ml-24 -mt-80 cursor-pointer xl:ml-16 xl:w-[43%] xl:-mt-60 lg:ml-16 lg:w-[41%] lg:-mt-52 md:ml-10 md:w-[44%] md:-mt-40 sm:ml-10 sm:w-[42%] sm:-mt-32 xs:ml-6 xs:w-[42%] xs:-mt-20'
+                <Image src="/images/projects/HSPA/ps-button.png" alt="PSButton" width={600} height={600} className='w-[42%] h-auto absolute ml-24 -mt-80 cursor-pointer xl:ml-16 xl:w-[43%] xl:-mt-60 lg:ml-16 lg:w-[41%] lg:-mt-52 md:ml-10 md:w-[44%] md:-mt-40 sm:ml-10 sm:w-[42%] sm:-mt-32 xs:ml-6 xs:w-[42%] xs:-mt-20'
                 priority
                 />
               </Link>
@@ -126,7 +126,7 @@ const homeserviceprovider = () => {
             className='mb-4 text-2xl font-bold w-full text-center text-dark dark:text-light lg:!text-xl sm:mb-2 sm:!text-lg xs:!text-base'>Modern Portfolio Website</motion.h2>
             <div className='flex items-center justify-center w-full'>
               <Link href="/projects/modernportfoliowebsite">
-                <FramerImage src={modernportfolio} alt="JohnMartin" className='w-full h-auto flex items-center'
+                <FramerImage src="/images/projects/modern-portfolio-cropped.png" alt="Modern-Portfolio-Website" width={600} height={600} className='w-full h-auto flex items-center'
                 priority
                 initial={{y:150, opacity:0}}
                 whileInView={{y:0, opacity:1, transition:{duration:1, delay:0.8}}}

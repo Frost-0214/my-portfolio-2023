@@ -22,7 +22,7 @@ const FeaturedProject = ({type, title, summary, img, link, playstore}) => {
             <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl dark:bg-light xs:-right-2 sm:h-[102%] xs:w-full xs:rounded=[1.5rem]' />
             <Link href={link} 
             className=' w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'>
-                <FramerImage src={img} alt={title} className="w-full h-auto"
+                <FramerImage src={img} alt={title} width={600} height={600} className="w-full h-auto"
                 whileHover={{scale:1.05}}
                 transition={{duration:0.2}}
                 priority
@@ -54,7 +54,7 @@ const FeaturedProject1 = ({type, title, summary, img, link, playstore}) => {
             <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl dark:bg-light xs:-right-2 sm:h-[102%] xs:w-full xs:rounded=[1.5rem]' />
             <Link href={link}
             className=' w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'>
-                <FramerImage src={img} alt={title} className="w-full h-auto"
+                <FramerImage src={img} alt={title} width={600} height={600} className="w-full h-auto"
                 whileHover={{scale:1.1}}
                 transition={{duration:0.2}}
                 priority
@@ -86,7 +86,7 @@ const Project = ({type, title, img, link, linkexternal, icon}) => {
             <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded=[1.5rem]' />
             <Link href={link}
             className=' w-full cursor-pointer overflow-hidden rounded-lg'>
-                <FramerImage src={img} alt={title} className="w-full h-auto"
+                <FramerImage src={img} alt={title} width={600} height={600} className="w-full h-auto"
                 whileHover={{scale:1.1}}
                 transition={{duration:0.2}}
                 />
@@ -123,7 +123,7 @@ const Project1 = ({type, title, img, link, linkexternal}) => {
             <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded=[1.5rem]' />
             <Link href={link}
             className=' w-full cursor-pointer overflow-hidden rounded-lg'>
-                <FramerImage src={img} alt={title} className="w-full h-auto"
+                <FramerImage src={img} alt={title} width={600} height={600} className="w-full h-auto"
                 whileHover={{scale:1.1}}
                 transition={{duration:0.2}}
                 />
@@ -172,7 +172,9 @@ const projects = () => {
                     <div className='col-span-12'>
                         <FeaturedProject
                         title="Home Service Provider"
-                        img={project1}
+                        img="/images/projects/hspa-cover.png"
+                        width={600}
+                        height={600}
                         summary="An Android Mobile Application that connects homeowners with trusted service professionals. Created in Android Studio using Java programming language."
                         link="/projects/homeserviceprovider"
                         playstore="https://play.google.com/store/apps/details?id=com.hspa.capstone&pcampaignid=web_share"
@@ -182,7 +184,9 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                     <Project
                         title="Modern Portfolio"
-                        img={project2}
+                        img="/images/projects/modern-portfolio.png"
+                        width={600}
+                        height={600}
                         link="/projects/modernportfoliowebsite"
                         linkexternal="/"
                         type="Portfolio Website"
@@ -191,7 +195,9 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                     <Project1
                         title="First Portfolio"
-                        img={project3}
+                        img="/images/projects/first-portfolio.png"
+                        width={600}
+                        height={600}
                         link="/projects/firstportfoliowebsite"
                         linkexternal="/"
                         type="Portfolio Website"
@@ -200,7 +206,9 @@ const projects = () => {
                     <div className='col-span-12'>
                     <FeaturedProject1
                         title="SDCA Calculator with Login Form"
-                        img={project4}
+                        img="/images/projects/sdca-calculator.png"
+                        width={600}
+                        height={600}
                         summary="A calculator project application with login form created in Microsoft Visual Studio using C# programming language."
                         link="/projects/sdcacalculator"
                         playstore="/"
