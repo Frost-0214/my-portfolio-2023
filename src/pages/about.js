@@ -88,7 +88,7 @@ const about = () => {
                         <div className='flex flex-row lg:mx-52 md:mx-48 sm:mx-16 xs:mx-24'>
                             <BootstrapLogo className={"w-10 h-10 items-start mx-1"}/>
                             <PHPLogo className={"w-10 h-10 items-start mx-1"}/>
-                            <JavaScript className={"w-10 h-10 items-start mx-1"}/>
+                            {/* <JavaScript className={"w-10 h-10 items-start mx-1"}/> */}
                             <ViteLogo className={"w-10 h-10 items-start mx-1"}/>
                             <ThreeJs className={"w-10 h-10 items-start mx-1"}/>
                         </div>
