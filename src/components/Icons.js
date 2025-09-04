@@ -549,6 +549,7 @@ export const BootstrapLogo = ({ className, ...rest }) => (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
+    className={`w-full h-auto ${className}`}
     {...rest}
   >
     <path
@@ -616,6 +617,7 @@ export const ViteLogo = ({ className, ...rest }) => (
     xmlnsXlink="http://www.w3.org/1999/xlink"
     preserveAspectRatio="xMidYMid"
     fill="#000000"
+    className={`w-full h-auto ${className}`}
     {...rest}
   >
     <g id="SVGRepo_bgCarrier" strokeWidth={0} />
@@ -669,6 +671,7 @@ export const ThreeJs = ({ className, ...rest }) => (
     strokeLinecap="square"
     strokeMiterlimit={10}
     viewBox="0 0 226.77 226.77"
+    className={`w-full h-auto ${className}`}
     {...rest}
   >
     <g
@@ -800,6 +803,7 @@ export const SQLDB = ({ className, ...rest }) => (
     fill="currentColor"
     baseProfile="full"
     viewBox="0 0 76 76"
+    className={`w-full h-auto ${className}`}
     {...rest}
   >
     <path
@@ -898,6 +902,7 @@ export const Webstorm = ({ className, ...rest }) => (
     xmlnsXlink="http://www.w3.org/1999/xlink"
     preserveAspectRatio="xMidYMid"
     fill="#000000"
+    className={`w-full h-auto ${className}`}
     {...rest}
   >
     <g id="SVGRepo_bgCarrier" strokeWidth={0} />
