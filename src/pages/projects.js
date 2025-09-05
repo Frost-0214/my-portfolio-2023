@@ -172,9 +172,7 @@ const projects = () => {
                     <div className='col-span-12'>
                         <FeaturedProject
                         title="Home Service Provider"
-                        img="/images/projects/hspa-cover.png"
-                        width={600}
-                        height={600}
+                        img={project1}
                         summary="An Android Mobile Application that connects homeowners with trusted service professionals. Created in Android Studio using Java programming language."
                         link="/projects/homeserviceprovider"
                         playstore="https://play.google.com/store/apps/details?id=com.hspa.capstone&pcampaignid=web_share"
@@ -184,9 +182,7 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                     <Project
                         title="Modern Portfolio"
-                        img="/images/projects/modern-portfolio.png"
-                        width={600}
-                        height={600}
+                        img={project2}
                         link="/projects/modernportfoliowebsite"
                         linkexternal="/"
                         type="Portfolio Website"
@@ -195,9 +191,7 @@ const projects = () => {
                     <div className='col-span-6 sm:col-span-12'>
                     <Project1
                         title="First Portfolio"
-                        img="/images/projects/first-portfolio.png"
-                        width={600}
-                        height={600}
+                        img={project3}
                         link="/projects/firstportfoliowebsite"
                         linkexternal="/"
                         type="Portfolio Website"
@@ -206,9 +200,7 @@ const projects = () => {
                     <div className='col-span-12'>
                     <FeaturedProject1
                         title="SDCA Calculator with Login Form"
-                        img="/images/projects/sdca-calculator.png"
-                        width={600}
-                        height={600}
+                        img={project4}
                         summary="A calculator project application with login form created in Microsoft Visual Studio using C# programming language."
                         link="/projects/sdcacalculator"
                         playstore="/"
